@@ -1,0 +1,92 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1663955866,
+        "narHash": "sha256-CUkueynuJsDSGBcmkOhhfScyXpSnNFHyipQPGYPO9tE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a9d5f7761dd4520642d5ecdccc9a33aa4cc2ddf1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1663955866,
+        "narHash": "sha256-CUkueynuJsDSGBcmkOhhfScyXpSnNFHyipQPGYPO9tE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a9d5f7761dd4520642d5ecdccc9a33aa4cc2ddf1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "poetry2nix_pkgs": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1663843282,
+        "narHash": "sha256-nZkBpbcShSfCZdsA4qlD0cx8p5gJjq6Z+P1q9iVZ0I4=",
+        "owner": "nix-community",
+        "repo": "poetry2nix",
+        "rev": "869580c729e658ffe74d8d1d0c3cb132d33a6126",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "poetry2nix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "poetry2nix_pkgs": "poetry2nix_pkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
